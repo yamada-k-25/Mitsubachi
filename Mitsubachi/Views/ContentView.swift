@@ -26,13 +26,39 @@ struct ContentView: View {
         }
     }
     
+    private var vertexOrderList: Result<[Int], Error> {
+        do {
+            return Result.success(
+                try self.tsfInputParser
+                    .parseVertexOrders(vertexOrdersString: self.vertexOrderListText)
+            )
+        } catch {
+            return Result.failure(error)
+        }
+    }
+    
     var body: some View {
         HStack(spacing: 0) {
-            // TODO: パース結果をここに追加する
-            switch vertexList {
-                case .success(let vertexList):
-                    CanvasView(vertexes: vertexList, travelingOrder: [])
-                case .failure(let error):
+            switch (self.vertexList, self.vertexOrderList) {
+                case (.success(let vertexList), .success(let vertexOrders)):
+                    if vertexList.count >= vertexOrders.count {
+                        CanvasView(
+                            vertexes: vertexList,
+                            travelingOrder: vertexOrders
+                        )
+                    } else {
+                        CanvasView(
+                            vertexes: [],
+                            travelingOrder: []
+                        )
+                        .overlay {
+                            self.errorView(TSPError.countMismatch(
+                                vertices: vertexList.count,
+                                edges: vertexOrders.count
+                            ))
+                        }
+                    }
+                case (.failure(let error), _), (_, .failure(let error)):
                     CanvasView(vertexes: [], travelingOrder: [])
                         .overlay {
                             self.errorView(error)

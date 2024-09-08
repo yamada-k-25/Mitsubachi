@@ -24,4 +24,5 @@ extension ParsingError: LocalizedError {
 enum Reason: String {
     case invalidInputCountOnLine = "you must input data formatting `x y` on every line."
     case noDoubleeger = "failed to parse to `Double`."
+    case noInt = "failed to parse to `Int`."
 }

@@ -11,7 +11,7 @@ import SwiftUI
 @MainActor
 struct CanvasView {
     let vertexes: [SIMD2<Double>]
-    let travelingOrder: [Double]
+    let travelingOrder: [Int]
     
     private var maxX: Double? {
         self.vertexes.max(by: { lhs, rhs in lhs.x < rhs.x })?.x
@@ -74,8 +74,8 @@ extension CanvasView: View {
         GeometryReader { proxy in
             VStack {
                 Canvas { context, size in
-                    for (num, vertex) in self
-                        .displayVertexes(canvasSize: proxy.size)
+                    let displayVertexes = self.displayVertexes(canvasSize: proxy.size)
+                    for (num, vertex) in displayVertexes
                         .enumerated() {
                         self.drawVertex(
                             context: context,
@@ -83,6 +83,18 @@ extension CanvasView: View {
                             y: vertex.y,
                             number: num
                         )
+                    }
+                    
+                    for idx in self.travelingOrder.indices {
+                        if idx - 1 <= -1 { continue }
+                        
+                        let from = displayVertexes[idx-1]
+                        let to = displayVertexes[idx]
+                        let path = Path {path in
+                            path.move(to: CGPoint(x: from.x, y: from.y))
+                            path.addLine(to: CGPoint(x: to.x, y: to.y))
+                        }
+                        context.stroke(path, with: .color(.blue))
                     }
                 }
                 .background(.white)
