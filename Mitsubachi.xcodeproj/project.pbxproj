@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2D158E212C8C5B5E0005B534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D158E072C8C5B5C0005B534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D158E0E2C8C5B5C0005B534;
+			remoteInfo = Mitsubachi;
+		};
+		2D158E2B2C8C5B5E0005B534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D158E072C8C5B5C0005B534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D158E0E2C8C5B5C0005B534;
+			remoteInfo = Mitsubachi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D158E0F2C8C5B5C0005B534 /* Mitsubachi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mitsubachi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D158E202C8C5B5E0005B534 /* MitsubachiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MitsubachiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D158E2A2C8C5B5E0005B534 /* MitsubachiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MitsubachiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2D158E112C8C5B5C0005B534 /* Mitsubachi */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Mitsubachi; sourceTree = "<group>"; };
+		2D158E232C8C5B5E0005B534 /* MitsubachiTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = MitsubachiTests; sourceTree = "<group>"; };
+		2D158E2D2C8C5B5E0005B534 /* MitsubachiUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = MitsubachiUITests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D158E0C2C8C5B5C0005B534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D158E1D2C8C5B5E0005B534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D158E272C8C5B5E0005B534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D158E062C8C5B5C0005B534 = {
+			isa = PBXGroup;
+			children = (
+				2D158E112C8C5B5C0005B534 /* Mitsubachi */,
+				2D158E232C8C5B5E0005B534 /* MitsubachiTests */,
+				2D158E2D2C8C5B5E0005B534 /* MitsubachiUITests */,
+				2D158E102C8C5B5C0005B534 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D158E102C8C5B5C0005B534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D158E0F2C8C5B5C0005B534 /* Mitsubachi.app */,
+				2D158E202C8C5B5E0005B534 /* MitsubachiTests.xctest */,
+				2D158E2A2C8C5B5E0005B534 /* MitsubachiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D158E0E2C8C5B5C0005B534 /* Mitsubachi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D158E342C8C5B5E0005B534 /* Build configuration list for PBXNativeTarget "Mitsubachi" */;
+			buildPhases = (
+				2D158E0B2C8C5B5C0005B534 /* Sources */,
+				2D158E0C2C8C5B5C0005B534 /* Frameworks */,
+				2D158E0D2C8C5B5C0005B534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2D158E112C8C5B5C0005B534 /* Mitsubachi */,
+			);
+			name = Mitsubachi;
+			packageProductDependencies = (
+			);
+			productName = Mitsubachi;
+			productReference = 2D158E0F2C8C5B5C0005B534 /* Mitsubachi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D158E1F2C8C5B5E0005B534 /* MitsubachiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D158E372C8C5B5E0005B534 /* Build configuration list for PBXNativeTarget "MitsubachiTests" */;
+			buildPhases = (
+				2D158E1C2C8C5B5E0005B534 /* Sources */,
+				2D158E1D2C8C5B5E0005B534 /* Frameworks */,
+				2D158E1E2C8C5B5E0005B534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D158E222C8C5B5E0005B534 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2D158E232C8C5B5E0005B534 /* MitsubachiTests */,
+			);
+			name = MitsubachiTests;
+			packageProductDependencies = (
+			);
+			productName = MitsubachiTests;
+			productReference = 2D158E202C8C5B5E0005B534 /* MitsubachiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D158E292C8C5B5E0005B534 /* MitsubachiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D158E3A2C8C5B5E0005B534 /* Build configuration list for PBXNativeTarget "MitsubachiUITests" */;
+			buildPhases = (
+				2D158E262C8C5B5E0005B534 /* Sources */,
+				2D158E272C8C5B5E0005B534 /* Frameworks */,
+				2D158E282C8C5B5E0005B534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D158E2C2C8C5B5E0005B534 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2D158E2D2C8C5B5E0005B534 /* MitsubachiUITests */,
+			);
+			name = MitsubachiUITests;
+			packageProductDependencies = (
+			);
+			productName = MitsubachiUITests;
+			productReference = 2D158E2A2C8C5B5E0005B534 /* MitsubachiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D158E072C8C5B5C0005B534 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					2D158E0E2C8C5B5C0005B534 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					2D158E1F2C8C5B5E0005B534 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 2D158E0E2C8C5B5C0005B534;
+					};
+					2D158E292C8C5B5E0005B534 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 2D158E0E2C8C5B5C0005B534;
+					};
+				};
+			};
+			buildConfigurationList = 2D158E0A2C8C5B5C0005B534 /* Build configuration list for PBXProject "Mitsubachi" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D158E062C8C5B5C0005B534;
+			packageReferences = (
+				2D158E512C8D9C8F0005B534 /* XCRemoteSwiftPackageReference "swift-format" */,
+			);
+			productRefGroup = 2D158E102C8C5B5C0005B534 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D158E0E2C8C5B5C0005B534 /* Mitsubachi */,
+				2D158E1F2C8C5B5E0005B534 /* MitsubachiTests */,
+				2D158E292C8C5B5E0005B534 /* MitsubachiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D158E0D2C8C5B5C0005B534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D158E1E2C8C5B5E0005B534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D158E282C8C5B5E0005B534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D158E0B2C8C5B5C0005B534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D158E1C2C8C5B5E0005B534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D158E262C8C5B5E0005B534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D158E222C8C5B5E0005B534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D158E0E2C8C5B5C0005B534 /* Mitsubachi */;
+			targetProxy = 2D158E212C8C5B5E0005B534 /* PBXContainerItemProxy */;
+		};
+		2D158E2C2C8C5B5E0005B534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D158E0E2C8C5B5C0005B534 /* Mitsubachi */;
+			targetProxy = 2D158E2B2C8C5B5E0005B534 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D158E322C8C5B5E0005B534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D158E332C8C5B5E0005B534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2D158E352C8C5B5E0005B534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mitsubachi/Mitsubachi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mitsubachi/Preview Content\"";
+				DEVELOPMENT_TEAM = Z8Z3BXUEUR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.yamada-k-25.Mitsubachi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2D158E362C8C5B5E0005B534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mitsubachi/Mitsubachi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mitsubachi/Preview Content\"";
+				DEVELOPMENT_TEAM = Z8Z3BXUEUR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.yamada-k-25.Mitsubachi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2D158E382C8C5B5E0005B534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8Z3BXUEUR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.yamada-k-25.MitsubachiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mitsubachi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mitsubachi";
+			};
+			name = Debug;
+		};
+		2D158E392C8C5B5E0005B534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8Z3BXUEUR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.yamada-k-25.MitsubachiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mitsubachi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mitsubachi";
+			};
+			name = Release;
+		};
+		2D158E3B2C8C5B5E0005B534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8Z3BXUEUR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.yamada-k-25.MitsubachiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Mitsubachi;
+			};
+			name = Debug;
+		};
+		2D158E3C2C8C5B5E0005B534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8Z3BXUEUR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.yamada-k-25.MitsubachiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Mitsubachi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D158E0A2C8C5B5C0005B534 /* Build configuration list for PBXProject "Mitsubachi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D158E322C8C5B5E0005B534 /* Debug */,
+				2D158E332C8C5B5E0005B534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D158E342C8C5B5E0005B534 /* Build configuration list for PBXNativeTarget "Mitsubachi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D158E352C8C5B5E0005B534 /* Debug */,
+				2D158E362C8C5B5E0005B534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D158E372C8C5B5E0005B534 /* Build configuration list for PBXNativeTarget "MitsubachiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D158E382C8C5B5E0005B534 /* Debug */,
+				2D158E392C8C5B5E0005B534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D158E3A2C8C5B5E0005B534 /* Build configuration list for PBXNativeTarget "MitsubachiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D158E3B2C8C5B5E0005B534 /* Debug */,
+				2D158E3C2C8C5B5E0005B534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2D158E512C8D9C8F0005B534 /* XCRemoteSwiftPackageReference "swift-format" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-format";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 510.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 2D158E072C8C5B5C0005B534 /* Project object */;
+}
